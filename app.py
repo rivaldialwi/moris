@@ -54,7 +54,7 @@ def classify_text(input_text):
 
 # Fungsi untuk menjalankan aplikasi
 def run():
-    st.title("Aplikasi Analisis Sentimen scentplus")
+    st.title("Aplikasi Analisis Sentimen Moris")
     input_text = st.text_input("Masukkan kalimat untuk analisis sentimen:")
     if st.button("Analisis"):
         if input_text.strip() == "":
